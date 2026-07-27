@@ -1,0 +1,28 @@
+# 内部规划文档保留在本地，不上传
+*.md
+!README.md
+!assets/image-credits.md
+
+# 当前未接入网页、许可记录尚未同步的图片
+assets/images/
+
+# 验证截图
+*-check.png
+
+# 编辑器、系统和本地工具文件
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.log
+*.md.txt
+
+# 素材检索过程中产生的本地缓存，保留但不上传
+bing*.html
+*.json
+*.zip
+sitemap.xml
